@@ -1,0 +1,315 @@
+:root{
+    --color_primary: #08a9ff;
+    --color_hover: #0efff9;
+    --color-terciary: #262442;
+}
+
+body{
+    background-color: #262442;
+    font-family: "Nunito";
+    color: white;
+}
+
+a{
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 0.2px solid #08a9ff;
+}
+
+.link-git{
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.link-git:hover{
+    transform: scale(1.1)
+}
+
+.menu_logo{
+    max-width: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+
+.menu_logo:hover{
+    transform: scale(1.1);
+}
+
+.menu_lista{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu_lista_item{
+    color: var( --color_primary);
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 25px;
+}
+
+.menu_lista_item:hover{
+    color: var(--color_hover);
+    transform: scale(1.1);
+}
+
+.menu_curriculo{
+    font-family: "Press Start 2P";
+    background-color: #08a9ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu_curriculo:hover{
+    background-color: var(--color_hover);
+}
+
+.home{
+    display: flex;
+    height: 80vh;
+}
+
+.home_infos{
+    background-color:  #26244290;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 1px solid var(--color_primary);
+}
+
+.home_img{
+    max-width: 300px;
+    background-color:  #26244289;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.home_text{
+    font-size: 2rem;
+}
+
+.home_nome{
+    font-size: 3rem;
+    color: #0efff9;
+    font-weight: bold;
+}
+.home_area{
+    font-size: 2rem;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+    height: 500px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 1px solid var(--color_primary);
+}
+
+.secao_titulo{
+    font-size: 3rem;
+}
+
+.secao_sobre{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.tecno_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 80px;
+}
+
+.tecno-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e2d3b89;
+    padding: 10px;
+    min-width: 100px;
+    border-top-left-radius: 20%;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 5px 15px rgba(2,0,36,1);
+    transition: transform 0.3s ease;
+}
+
+.tecno-card:hover {
+    transform: scale(1.1);
+}
+
+.icon{
+    font-size: 60px;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0px auto;
+    gap: 20px;
+    min-height: 80vh;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 3px solid var(--color_primary);
+}
+
+.projetos_lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.projeto{
+    background-color: #2e2d3b89;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(2,0,36,1);
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover{
+    transform: scale(1.1);
+}
+
+.curso_titulo{
+    color: rgb(243, 9, 9);
+    font-size: 24px;
+}
+
+.curso_subtitulo{
+    color: var(--color_hover);
+    font-size: 14px;
+}
+
+.curso_texto{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.curso_duracao{
+    color: rgb(224, 86, 86);
+    text-decoration: none;
+}
+
+.projeto-img{
+    opacity: 0.8;
+    border-top-left-radius: 20px;
+}
+
+.projeto-img:hover{
+    opacity: 1;
+}
+
+
+.contato_lista{
+    display: flex;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape-icon{
+    font-size: 60px;
+}
+
+.contato_card_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contato_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+}
+
+.contato_card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(2,0,36,1);
+}
+
+/* responsividade... */
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .secao{
+        height: auto;
+    }
+    .menu_lista{
+        display: none;
+    }
+
+    .home_infos{
+        display: flex;
+        flex-direction: column;
+    }
+    .home_img{
+        max-width: 200px;
+    }
+    .home_infos_text{
+        text-align: center;
+    }
+
+    .tecno_info{
+        flex-wrap: wrap;
+    }
+
+    .tecno-card{
+        margin-bottom: 20px;
+        width: 33.33%;
+    }
+
+    .projetos_lista{
+        flex-direction: column;
+    }
+
+    .contato_card_list{
+        flex-direction: column;
+    }
+}
+  

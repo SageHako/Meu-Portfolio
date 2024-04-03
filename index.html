@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio| Jakson Almeida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab953f1979.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu">
+        <a class="link-git" href="https://github.com/SageHako/SageHako" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <ul class="menu_lista">
+            <li>
+               <a class="menu_lista_item" href="#home">Inicio</a> 
+            </li>
+            <li>
+               <a class="menu_lista_item" href="#sobre">Sobre</a> 
+            </li>
+            <li>
+                <a class="menu_lista_item" href="#tecnologias">Tecnologias</a>
+            </li>
+            <li>
+               <a class="menu_lista_item" href="#projetos">Projetos</a> 
+            </li>
+            <li>
+               <a class="menu_lista_item" href="#contatos">Contato</a> 
+            </li>
+        </ul>
+        <!-- <a class="menu_curriculo" href="">Currículo</a> -->
+    </header>
+
+    <main id="#home" class="home">
+        <div class="home_infos">
+            <div class="home_infos_text">
+                <h1 class="home_text">Olá, eu sou </h1>
+                <span class="home_nome">Jakson Almeida</span>
+                <p class="home_area">Desenvolvedor FullStack</p>
+            </div>
+            <div>
+                <img class="home_img" src="./assests/perfil.svg" alt="Minha foto">
+            </div>          
+        </div>
+    </main>
+
+    <section class="secao" id="sobre">
+        <h2 class="secao_titulo">Sobre</h2>
+        <p class="secao_sobre">Sou desenvolvedor FullStack, com foco em mobile.Tenho experiência em JavaScript, React.js, 
+            React Navite, Expo, Styled Component, consumo de API Rest. Gosto muito do desenvolvimento front-end, usando componentes
+            reutilizáveis e alguns projetos em react native. Com formação na Infinity School cursos e Fábrica de Aplicativos.
+        </p>
+    </section>
+
+    <section class="secao" id="tecnologias">
+        <h2 class="secao_titulo">Tecnologias</h2>
+        <div class="tecno_info">
+            <div class="tecno-card">
+                <p>Html5</p>
+                <i class="fa-brands fa-html5 icon"></i> 
+            </div>
+            <div class="tecno-card">
+                <p>Css3</p>
+                <i class="fa-brands fa-css3-alt icon"></i> 
+            </div>         
+            <div class="tecno-card">
+                <p>JavaScript</p>
+                <i class="fa-brands fa-js icon"></i>
+            </div>
+            <div class="tecno-card">
+                <p>ReactJs</p>
+                <i class="fa-brands fa-react icon"></i>
+            </div>
+            <div class="tecno-card">
+                <p>Python</p>
+                <i class="fa-brands fa-python icon"></i>
+            </div>
+            <div class="tecno-card">
+                <p>MySql</p>
+                <i class="fas fa-database icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao" id="projetos">
+        <h2 class="secao_titulo">Projetos</h2>
+        <div class="projetos_lista">
+            <div class="projeto">
+                <h3 class="curso_titulo">To do List - React Native</h3>
+                <p class="curso_texto">Esse projeto é um aplicativo android, construido para praticar a biblioteca do firebase
+                    para fazer um crud com realtime.
+                </p>
+                    <a href="https://github.com/SageHako/Lista-de-Tarefa-React-Native.git" target="_blank">
+                        <img class="projeto-img" src="./assests//todolist.png" width="300"/>
+                    </a>
+                <p class="curso_duracao">
+                    <a href="https://github.com/SageHako/Lista-de-Tarefa-React-Native.git" target="_blank">Repositório</a></p>
+            </div>
+
+            <div class="projeto">
+                <h3 class="curso_titulo">Quizz Mania - React Native</h3>
+                <p class="curso_texto">Esse projeto é um aplciativo android de um quiz, aplicando alguns conceitos de rotas.
+                </p><br/>
+                    <a class="projeto-img" href="https://github.com/SageHako/QuizMania-React-Native.git" target="_blank">
+                        <img class="projeto-img" src="./assests//quizz1.png" width="300"/>
+                    </a>
+                <p class="curso_duracao">
+                    <a href="https://github.com/SageHako/QuizMania-React-Native.git">Repositório</a></p>
+            </div>
+
+            <div class="projeto">
+                <h3 class="curso_titulo">Music Play - React Native</h3>
+                <p class="curso_texto">Esse projeto é um aplciativo android de um Music Play, construi usando a biblioteca expo-av.</p>
+                <br/>
+                    <a href="https://github.com/SageHako/Music-Player---React-Native.git" target="_blank">
+                        <img class="projeto-img" src="./assests//playmusic.png" width="300"/>
+                    </a> 
+                <p class="curso_duracao">
+                    <a href="https://github.com/SageHako/Music-Player---React-Native.git">Repositório</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="secao">
+            <h4 class="secao_titulo">Contatos</h4>
+            <div class="contato_card_list">
+                <div class="contato_card">
+                    <i class="fas fa-envelope icon"></i> 
+                    <span>almeidajakson@gmail.com</span>
+                </div>
+                <div class="contato_card">
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+                        <i class="fab fa-linkedin rodape-icon"></i>
+                    </a>
+                    <span>Linkedin</span>
+                </div>
+                <div class="contato_card">
+                    <a href="https://github.com/SageHako/SageHako" target="_blank"><i class="fab fa-github rodape-icon"></i></a>
+                    <span>Linkedin</span>
+                </div>
+                
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
