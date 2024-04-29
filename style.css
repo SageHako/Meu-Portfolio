@@ -103,6 +103,7 @@ a{
 
 .home_text{
     font-size: 2rem;
+    text-align: center;
 }
 
 .home_nome{
@@ -138,10 +139,11 @@ a{
 
 .tecno_info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 80px;
+
 }
 
 .tecno-card{
@@ -206,7 +208,7 @@ a{
 }
 
 .curso_titulo{
-    color: rgb(243, 9, 9);
+    color: rgb(253, 248, 248);
     font-size: 24px;
 }
 
